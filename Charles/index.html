@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container"></div>
+            <nav>
+                <div class="logo"><h1>CHARLES</h1></div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">AboutMe</a></li>
+                    <li><a href="#">Family</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./images/menu.svg" alt=""></div>
+            </nav>
+
+            <div class="header-content">
+                <h1>Charles Patrick Yanga</h1>
+                <h5>Web Developer</h5>
+                <p>Go Beyond Plus Ultra!</p>
+                <button class="primary-btn">WELCOME</button>
+            </div>
+    </section>
+
+    <section id="aboutme" class="container">
+        <div class="about">
+            <img src="./images/yangs.png" alt="">
+            <h1>Hi, It's Me</h1>
+            <p>Charles Patrick Yanga, from Ugong Valenzulea City, 28 yrs old and currently studying
+                Computer Scence in St. Louise College Valenzuela. I love computer and anything related 
+                to it be it games, building the rig itself and etc.  
+            </p>
+        </div>
+        <div class="about">
+            <img src="./images/hobi.jpg" alt="">
+            <h1>Hobbies</h1>
+            <p>I like watching Documentaries about Animals, Mysteries , Life Stories of prominent and 
+                famouse people. I also love to watch content creation about games, i do love to play 
+                fetch game with my 2 dogs and sometimes I draw anime characters  
+            </p>
+        </div>
+        <div class="about">
+            <img src="./images/Devi.jpg" alt="">
+            <h1>Aspiring</h1>
+            <p>I want to become a professional at coding and it needs a lot of practicing, perseverance and 
+                patience.The reason I chose to study again because i feel it is worth it and I always love
+                about computers and hoping someday to become full-stack developer
+            </p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+    <div class="about-content">
+        <h1>Hello</h1>
+        <p>with this simple website design I hope you like it and I will practice more about doing it for the
+            next project with the use javascript and any other useful for the improvement of my website, as for now
+            this is my not so perfect output, anyways i still enjoy making this website and will looking forward for the
+            next activity that we will do for the mid term and finals. Adios!
+        </p>
+    </div>
+      <div class="about-img">
+        <img src="./images/about.png" alt="">
+      </div>    
+    </section>
+
+    <section id="talk-to-me">
+        <div class="talk-to-me-content">
+            <h1>TALK TO ME</h1>
+            <p>Have any questions? I will always open to talk about this prelim activity/requirement 
+                I hope I'll see you again, Thank you.</p>
+                <button class="primary-btn">GET IN TOUCH</button>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footerlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">AboutMe</a></li>
+            <li><a href="#">Family</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">CHARLES</h1>
+        <p>©2024 Charles. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
